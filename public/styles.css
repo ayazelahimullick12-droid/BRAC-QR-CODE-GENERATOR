@@ -38,8 +38,11 @@ body {
 .brand-mark {
   width: 52px;
   height: 52px;
+  padding: 8px;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  object-fit: contain;
 }
 .brand-text h1 {
   margin: 0;

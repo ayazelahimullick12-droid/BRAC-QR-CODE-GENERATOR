@@ -17,14 +17,14 @@ simple to run locally and to deploy on Render.
 - **Link/text** — the QR's content.
 - **Shape** — square or circle.
 - **Decorative border** (circle only) — none, a brac-style gradient frame, or
-  the brac একতা logo repeated around the ring.
+  an uploaded image repeated around the ring.
 - **Dot style / corner square style / corner dot style** — every style the
   library supports (square, dots, rounded, classy, classy-rounded,
   extra-rounded).
 - **Colours** — dots, corner squares, corner dots, background (with a
   transparent-background option).
-- **Centre image** — none by default, the brac একতা logo, or **upload your
-  own image** — nothing is hard-coded to always use one image.
+- **Centre image** — none by default. There is **no built-in logo** — a logo
+  only appears once the user **uploads their own image**.
 - **Error correction level**, **output size**, and **file name**.
 - **Quick style presets** for one-click starting points (Classic pink, Round
   dots, Circle with frame, Circle with logo ring, Plain black & white).
@@ -65,7 +65,8 @@ webapp/
     styles.css           brac-pink theme
     app.js                All QR-building logic (client-side)
     vendor/qr-code-styling.js   Vendored library build (browser bundle)
-    assets/brac-logo.png        Default brac একতা logo (optional preset image)
+    assets/brac-icon.png         brac pinwheel mark (page header/favicon only —
+                                   never used as a QR logo default)
 ```
 
 ## Updating the vendored library
