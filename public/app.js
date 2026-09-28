@@ -1,10 +1,10 @@
-// brac একতা QR Generator — all QR building runs client-side with the
+// brac QR Generator — all QR building runs client-side with the
 // qr-code-styling library (vendor/qr-code-styling.js). No data ever leaves
 // the browser: the server only serves these static files.
 (function () {
   "use strict";
 
-  // ---------- brand colours (sampled from the brac একতা logo) ----------
+  // ---------- brand colours (sampled from the brac logo) ----------
   const LOGO_COLORS = {
     bevelDark: "#910156",
     bevelMid: "#bf5989",

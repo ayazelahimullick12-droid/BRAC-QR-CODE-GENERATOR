@@ -11,7 +11,7 @@
   --card: #ffffff;
   --border: #f0d7e6;
   --radius: 14px;
-  font-family: "Inter", "Noto Sans Bengali", system-ui, sans-serif;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }

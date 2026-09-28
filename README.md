@@ -1,4 +1,4 @@
-# brac একতা QR Generator
+# brac QR Generator
 
 A small internal web app: paste a link, style the QR code (shape, colours, dot
 style, corner style, and an optional centre image/logo), preview it live, and
