@@ -1,0 +1,16 @@
+{
+  "name": "brac-qr-generator",
+  "version": "1.0.0",
+  "description": "brac-themed QR code generator (link -> styled QR, shape/image/color/style options)",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
